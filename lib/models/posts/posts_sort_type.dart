@@ -1,0 +1,1 @@
+enum PostsSortType { ascending, descending }
