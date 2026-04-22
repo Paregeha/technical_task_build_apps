@@ -1,0 +1,46 @@
+name: flutter_base_architecture
+description: "Avada Media example Kitty flutter project"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  #Підключення іконок, фото, переклади і т.д.
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/translations/
+    - assets/videos/
+
+  #Шрифти під різний тип жирності(можна побачити в resources > AppFonts)
+  fonts:
+    - family: Lato
+      fonts:
+#        - asset: assets/fonts/lato/Lato-Regular.ttf
+#          weight: 400
+#        - asset: assets/fonts/lato/Lato-Bold.ttf
+#          weight: 700
+#        - asset: assets/fonts/lato/Lato-ExtraBold.ttf
+#          weight: 800
+#        - asset: assets/fonts/lato/Lato-Heavy.ttf
+#          weight: 900
+
